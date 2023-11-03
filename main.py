@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-pip install -r requirements.txt
 app = Flask(__name__)
 
 # Cargar los datos de los invitados desde el archivo CSV
