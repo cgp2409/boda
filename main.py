@@ -52,4 +52,4 @@ def seccion_dos(codigo):
 
     return render_template('seccion_dos.html', nombre=nombre, infantil_max=infantil_max, adultos_max=adultos_max, codigo=codigo)
 if __name__ == '__main__':
-    app.run(debug=True, port=5000, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
